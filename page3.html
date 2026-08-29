@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 3</title>
+  <style>
+      body {
+      margin: 0;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      text-align: center;
+      color: #ff66a3;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: url('images/flowy.gif') center / cover no-repeat;
+      z-index: -1;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 20px;
+      padding: 20px;
+      width: 90%;
+      max-width: 500px;
+      margin: 40px auto;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .image-box img {
+      width: 150px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #ff4da6;
+      text-shadow: 2px 2px #ffd6eb;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      margin-top: 15px;
+      font-size: 1rem;
+      background: #ff80bf;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .btn:hover {
+      background: #ff4da6;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-box">
+      <img src="images/crying.jpe" alt="Sad cute image"> 
+    </div>
+    <h1>Whyy...             ESTUPIDO MONKEY OPEN IT    (T-T) </h1>
+    <a href="page2.html" class="btn">Again..? </a>
+  </div>
+</body>
+</html>
